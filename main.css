@@ -1,0 +1,132 @@
+/
+body{
+	text-align: center;
+}
+img{
+	max-width: 100%;
+}
+h1{
+	font-size: 18px;
+}
+
+.contenedor{
+	width: 500px;
+	margin: 0 auto;
+}
+.list-menu{
+	list-style: none;
+	margin: 10px 0;
+	padding: 10px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.list-menu li{
+	display: inline-block;
+	border-right: 1px solid black;
+}
+.list-menu a{
+	text-decoration: none;
+	color: 	#A9A9A9;
+	font-size: 19px;
+	padding: 7px 16px;
+}
+.list-menu li:last-child{
+	border-right: none;
+}
+.separador{
+	border-color: black;
+	width: 50px;
+	margin-top: 20px;
+}
+
+.separador-chico{
+	border-width: 2px;
+	width: 50px;
+	border-color: black;
+	margin: 0;
+}
+.descripcion{
+	font-size: 22px;
+	text-align: center;
+	padding: 0px 40px;
+}
+
+.list-coders{
+	list-style: none;
+	margin: 20px 0 0 0;
+	padding: 0;
+	text-align: center;
+}
+.list-coders a{
+	display: block;
+	position: relative;
+}
+.list-coders li{
+	display: inline-block;
+	width: 29%;
+	margin: 7px;
+}
+
+.list-coders p{
+	position: absolute;
+	color: white;
+	font-size: 12px;
+	bottom: 4px;
+	right: 4px;
+	margin: 0;
+}
+.list-coders li{
+	opacity: 0.5;
+}
+.list-coders li:hover{
+	opacity: 1;
+}
+.personaje{
+	border:1px solid black;
+	width: 440px;
+	text-align: center;
+	margin:30px;
+}
+.personaje h1{
+	font-size: 22px;
+}
+.personaje .foto{
+	border-radius: 100px;
+	width: 100px;
+	margin-top: 10px;
+
+}
+.personaje p{
+	font-size: 13px;
+	padding: 0 20px;
+}
+.personaje .subtitulos{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 10px;
+}
+.personaje .subtitulos p{
+	background-color: gray;
+	
+	margin-left: 20px;
+	padding: 10px;
+	color: #FDFEFE;
+}
+.personaje .subtitulos .primero{
+	width: 200px;
+}
+.personaje .subtitulos .segundo{
+	width: 150px;
+}
+.personaje .subtitulos .tercero{
+	width: 100px;
+}
+.list-fotos{
+	margin: 10px 0 10px 0;
+	padding: 0;
+}
+.list-fotos li{
+	display: inline-block;
+	width: 25%;
+	margin: 10px;
+}
